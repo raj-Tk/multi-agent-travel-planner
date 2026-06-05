@@ -136,9 +136,3 @@ If the frontend shows "This page can't be reached", the Streamlit server is not 
 .\langraph_env3\Scripts\python.exe -m streamlit run frontend.py --server.port 8501
 ```
 
-## Resume Highlights
-
-- Built a LangGraph StateGraph-based agent workflow for real-time flight retrieval, hotel search, itinerary planning, and recommendations.
-- Integrated Groq LLaMA 3.3, Tavily Search, and AviationStack APIs for tool-augmented, real-time travel data generation.
-- Implemented PostgreSQL checkpoint persistence with LangGraph PostgresSaver for thread-based user session memory.
-- Developed a Streamlit interface with agent streaming updates, query input handling, and markdown travel plan export.
